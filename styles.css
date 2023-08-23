@@ -97,6 +97,7 @@
     .lower .right  {
         background-color: #ffffff;
         padding: 1% 8% 1% 1%;
+        text-align: justify;
     }
 
     .lower 
