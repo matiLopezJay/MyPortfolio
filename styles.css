@@ -1,116 +1,257 @@
-/* header------------------------------------ */
-.header {
-    background-color: #1c2d3f;
-    padding: 1% 8%;
+@media only screen and (max-width: 2560px) { 
+
+    /* header------------------------------------ */
+    .header {
+        background-color: #1c2d3f;
+        padding: 1% 8%;
+    }
+
+    .header 
+    .details {
+        color: #fff;
+        text-align: left;
+    }
+
+    .header 
+    .details 
+    h1 {
+        font-size: 70px;
+    }
+
+    .header 
+    .details 
+    .hidden {
+        font-size: 30px;
+        display: none;
+    }
+
+    .header 
+    .details 
+    p {
+        font-size: 30px;
+        color: rgba(255, 82, 82, 1);
+    }
+
+    .header 
+    .details 
+    ul {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .header img { 
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        padding: 0px;
+    }
+
+    /* lower------------------------------------ */
+    .lower {
+        padding-top: .5%;
+    }
+
+    /* lower left------------------------------------ */
+    .lower 
+    .left {
+        background-color:  #565d76;
+        padding: 1% 1% 1% 8%;
+    }
+
+    .lower 
+    .left-content {
+        background-color: none;
+        margin-bottom: 7%;
+    }
+
+    .lower
+    .left-content
+    h1 {
+        font-size: 30px;
+        color: rgba(255, 82, 82, 1);
+    }
+
+    .lower 
+    .left-content
+    ul {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+        color: #ffffff;
+    }
+
+
+
+    /* lower right------------------------------------ */
+    .lower .right  {
+        background-color: #ffffff;
+        padding: 1% 8% 1% 1%;
+    }
+
+    .lower 
+    .right-content {
+        padding: 0% 0% 0% 5%;
+        border-bottom: #b11717 5px solid;
+        margin-bottom: 5%;
+    }
+
+    .lower 
+    .right-content
+    h1 {
+        font-size: 30px;
+        color: rgb(34, 34, 34);
+    }
+
+    .lower 
+    .right-content
+    h2 {
+        font-size: 25px;
+        color: rgb(34, 34, 34);
+        text-indent: 30px;
+    }
+
+    .lower 
+    .right-content
+    p {
+        font-size: 16px;
+        color: rgb(34, 34, 34);
+        text-indent: 30px;
+    }
+
+
 }
 
-.header 
-.details {
-    color: #fff;
-    text-align: left;
+
+@media only screen and (max-width: 376px) { 
+
+    /* header------------------------------------ */
+    .header {
+        background-color: #1c2d3f;
+        padding: 1% 8%;
+    }
+
+    .header 
+    .details {
+        color: #fff;
+        text-align: center;
+    }
+
+    .header 
+    .details 
+    h1 {
+        font-size: 35px;
+    }
+
+    .header 
+    .details 
+    .hidden {
+        font-size: 25px;
+        display: hidden;
+    }
+
+    .header 
+    .details 
+    p {
+        font-size: 20px;
+        color: rgba(255, 82, 82, 1);
+    }
+
+    .header 
+    .details 
+    ul {
+        list-style-type: none;
+        font-size: 15px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    .header img { 
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        padding: 20px;
+    }
+
+    /* lower------------------------------------ */
+    .lower {
+        padding-top: .5%;
+    }
+
+    /* lower left------------------------------------ */
+    .lower 
+    .left {
+        text-align: center;
+        background-color:  #565d76;
+        padding: 1% 10% 1% 10%;
+    }
+
+    .lower 
+    .left-content {
+        background-color: none;
+        margin-bottom: 7%;
+    }
+
+    .lower
+    .left-content
+    h1 {
+        font-size: 30px;
+        color: rgba(255, 82, 82, 1);
+    }
+
+    .lower 
+    .left-content
+    ul {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+        color: #ffffff;
+    }
+
+
+
+    /* lower right------------------------------------ */
+    .lower .right  {
+        background-color: #ffffff;
+        padding: 1% 10% 1% 10%;
+        text-align: justify;
+    }
+
+    .lower 
+    .right-content {
+        padding: 0% 0% 0% 0%;
+        border-bottom: #b11717 5px solid;
+        margin-bottom: 5%;
+    }
+
+    .lower 
+    .right-content
+    h1 {
+        font-size: 30px;
+        color: rgb(34, 34, 34);
+    }
+
+    .lower 
+    .right-content
+    h2 {
+        font-size: 25px;
+        color: rgb(34, 34, 34);
+        text-indent: 30px;
+    }
+
+    .lower 
+    .right-content
+    p {
+        font-size: 16px;
+        color: rgb(34, 34, 34);
+        text-indent: 30px;
+    }
+
+
 }
-
-.header 
-.details 
-h1 {
-    font-size: 70px;
-}
-
-.header 
-.details 
-p {
-    font-size: 30px;
-    color: rgba(255, 82, 82, 1);
-}
-
-.header 
-.details 
-ul {
-    list-style-type: none;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px;
-}
-
-
-.header img { 
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    padding: 0px;
-}
-
-/* lower------------------------------------ */
-.lower {
-    padding-top: .5%;
-}
-
-/* lower left------------------------------------ */
-.lower 
-.left {
-    background-color:  #565d76;
-    padding: 1% 1% 1% 8%;
-}
-
-.lower 
-.left-content {
-    background-color: none;
-    margin-bottom: 7%;
-}
-
-.lower
-.left-content
-h1 {
-    font-size: 30px;
-    color: rgba(255, 82, 82, 1);
-}
-
-.lower 
-.left-content
-ul {
-    list-style-type: none;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0px;
-    color: #ffffff;
-}
-
-
-
-/* lower right------------------------------------ */
-.lower .right  {
-    background-color: #ffffff;
-    padding: 1% 8% 1% 1%;
-}
-
-.lower 
-.right-content {
-    padding: 0% 0% 0% 5%;
-    border-bottom: #b11717 5px solid;
-    margin-bottom: 5%;
-}
-
-.lower 
-.right-content
-h1 {
-    font-size: 30px;
-    color: rgb(34, 34, 34);
-}
-
-.lower 
-.right-content
-h2 {
-    font-size: 25px;
-    color: rgb(34, 34, 34);
-    text-indent: 30px;
-}
-
-.lower 
-.right-content
-p {
-    font-size: 16px;
-    color: rgb(34, 34, 34);
-    text-indent: 30px;
-}
-
 
