@@ -1,4 +1,4 @@
-/* for computer screen----------------------------- */
+/* for large computer screen----------------------------- */
 @media only screen and (max-width: 2560px) { 
 
     /* header------------------------------------ */
@@ -26,7 +26,7 @@
     .show {
         font-size: 30px;
         display: show;
-        padding-left: 20%;
+        padding-left: 0%;
         margin-top: 0px;
         padding-top: 0px;
     }
@@ -149,8 +149,163 @@
 
 }
 
+/* for medium ipad screen----------------------------- */
+@media only screen and (max-width: 916px) { 
+
+    /* header------------------------------------ */
+    .header {
+        background-color: #1c2d3f;
+        padding: 1% 8%;
+    }
+
+    .header 
+    .details {
+        color: #fff;
+        text-align: left;
+    }
+
+    .header 
+    .details 
+    h1 {
+        font-size: 50px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .header 
+    .details 
+    .show {
+        font-size: 30px;
+        display: show;
+        padding-left: 0%;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .header 
+    .details 
+    p {
+        font-size: 25px;
+        color: rgba(255, 82, 82, 1);
+        margin: 0%;
+    }
+
+    .header 
+    .details 
+    ul {
+        list-style-type: none;
+        font-size: 18px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .header .profile_pic {
+        padding: 0%;
+    }
+
+    .header img { 
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        padding: 0px;
+    }
+
+    /* lower------------------------------------ */
+    .lower {
+        padding-top: .5%;
+    }
+
+    /* lower left------------------------------------ */
+    .lower 
+    .left {
+        background-color:  #565d76;
+        padding: 1% 1% 1% 8%;
+    }
+
+    .lower 
+    .left-content {
+        background-color: none;
+        margin-bottom: 7%;
+    }
+
+    .lower
+    .left-content
+    h1 {
+        font-size: 25px;
+        color: rgba(255, 82, 82, 1);
+    }
+
+    .lower 
+    .left-content
+    ul {
+        list-style-type: none;
+        font-size: 18px;
+        padding: 0px;
+        margin: 0px;
+        color: #ffffff;
+    }
+
+
+
+    /* lower right------------------------------------ */
+    .lower .right  {
+        background-color: #ffffff;
+        padding: 1% 8% 1% 1%;
+        text-align: justify;
+    }
+
+    .lower 
+    .right-content {
+        margin: 3% 0% 0% 0%;
+        padding: 0% 0% 0% 5%;
+        border-bottom: rgba(255, 82, 82, 1)5px solid;
+        
+    }
+
+    .lower 
+    .right-content.profile {
+        margin-top: 0%;
+        padding-bottom: 3%;
+    }
+
+    .lower 
+    .right-content
+    h1 {
+        font-size: 25px;
+        color: rgb(34, 34, 34);
+    }
+
+    .lower 
+    .right-content
+    h2 {
+        font-size: 20px;
+        color: rgb(34, 34, 34);
+        text-indent: 30px;
+        margin: 0%;
+    }
+
+    .lower 
+    .right-content
+    p {
+        font-size: 14px;
+        color: rgb(34, 34, 34);
+        text-indent: 30px;
+        margin: 0%;
+    }
+
+    .lower 
+    .right-content
+    .descrition{
+        margin:  1% 0% 3% 0%;
+    }
+
+
+
+}
+
+
 /* for small screen----------------------------- */
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 767px) { 
 
     /* header------------------------------------ */
     .header {
