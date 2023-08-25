@@ -1,6 +1,6 @@
 /* for large computer screen----------------------------- */
 @media only screen and (max-width: 2560px) { 
-
+        
     /* header------------------------------------ */
     .header {
         background-color: #1c2d3f;
@@ -157,6 +157,7 @@
     .descrition{
         margin:  1% 0% 3% 0%;
     }
+
 
 
 
@@ -317,11 +318,7 @@
 
 /* for small screen----------------------------- */
 @media only screen and (max-width: 768px) { 
-
-    /* .collapse.show {
-        display: none;
-    } */
-
+    
     /* header------------------------------------ */
     .header {
         background-color: #1c2d3f;
