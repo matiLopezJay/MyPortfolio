@@ -91,6 +91,15 @@
         color: #ffffff;
     }
 
+    .lower 
+    .left-content
+    .position {
+        font-size: 16px;
+        color: #929292;
+        margin-bottom: 2%;
+        margin-top: 0%;
+        padding-top: 0px;
+    }
 
 
     /* lower right------------------------------------ */
@@ -113,6 +122,12 @@
         margin-top: 0%;
         padding-bottom: 3%;
     }
+    
+    .lower 
+    .right-content.profile 
+    p {
+        text-indent: 30px;
+    }
 
     .lower 
     .right-content
@@ -126,7 +141,6 @@
     h2 {
         font-size: 25px;
         color: rgb(34, 34, 34);
-        text-indent: 30px;
         margin: 0%;
     }
 
@@ -135,7 +149,6 @@
     p {
         font-size: 16px;
         color: rgb(34, 34, 34);
-        text-indent: 30px;
         margin: 0%;
     }
 
@@ -267,7 +280,7 @@
         margin-top: 0%;
         padding-bottom: 3%;
     }
-
+    
     .lower 
     .right-content
     h1 {
@@ -280,7 +293,6 @@
     h2 {
         font-size: 20px;
         color: rgb(34, 34, 34);
-        text-indent: 30px;
         margin: 0%;
     }
 
@@ -289,7 +301,6 @@
     p {
         font-size: 14px;
         color: rgb(34, 34, 34);
-        text-indent: 30px;
         margin: 0%;
     }
 
@@ -422,7 +433,6 @@
     h2 {
         font-size: 25px;
         color: rgb(34, 34, 34);
-        text-indent: 30px;
     }
 
     .lower 
@@ -430,7 +440,6 @@
     p {
         font-size: 16px;
         color: rgb(34, 34, 34);
-        text-indent: 30px;
     }
 
 

@@ -2,9 +2,13 @@
 <html>
 <head>
     <title>Portfolio: Jason Matillano</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./bootstrap.min.css">
+    <!-- collapes feature addons -->
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <style>
 </style>
 </head>
@@ -29,74 +33,149 @@
                 >
         </div>
     </div>
+    <!-- end of header section----------------------------------------------->
     
     <div class="row justify-content-center lower">
-
         <!-- lower left section----------------------------------------------->
         <div class="col-md-5 left">
-                <div class="left-content">
-                    <h1>EXPERTICE</h1>
-                    <ul>
-                        <li>WEB DEVELOPMENT</li>
-                        <li>GRAPHIC DESIGN</li>
-                        <li>DATA ANALYSIS</li>
-                        <li>MOBILE APP DEVELOPMENT</li>
-                        <li>CONTENT WRITING</li>
-                        <li>PROJECT MANAGEMENT</li>
-                        <li>UI/UX DESIGN</li>
-                        <li>SEARCH ENGINE OPTIMIZATION (SEO)</li>
-                        <li>SOCIAL MEDIA MARKETING</li>
-                        <li>NETWORK SECURITY</li>
-                      </ul>
+                <div class="left-content EXPERTICE">
+                    <a 
+                        data-bs-toggle="collapse" 
+                        href="#collapseExpertice" 
+                        role="button" 
+                        aria-expanded="false" 
+                        aria-controls="collapseExpertice">
+                        <h1>EXPERTICE</h1>
+                    </a>
+                    <div class="collapse show" id="collapseExpertice">
+                        <ul>
+                            <li>WEB DEVELOPMENT</li>
+                            <li>GRAPHIC DESIGN</li>
+                            <li>DATA ANALYSIS</li>
+                            <li>MOBILE APP DEVELOPMENT</li>
+                            <li>CONTENT WRITING</li>
+                            <li>PROJECT MANAGEMENT</li>
+                            <li>UI/UX DESIGN</li>
+                            <li>SEARCH ENGINE OPTIMIZATION (SEO)</li>
+                            <li>SOCIAL MEDIA MARKETING</li>
+                            <li>NETWORK SECURITY</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="left-content">
-                    <h1>SKILLS</h1>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                        <li>PYTHON</li>
-                        <li>PHP</li>
-                        <li>MYSQL</li>
-                        <li>GRAPHIC DESIGN</li>
-                        <li>PROJECT MANAGEMENT</li>
-                        <li>COMMUNICATION</li>
-                        <li>PROBLEM SOLVING</li>
-                      </ul>
+                <div class="left-content SKILLS">
+                    <a 
+                        data-bs-toggle="collapse" 
+                        href="#collapseSkills" 
+                        role="button" 
+                        aria-expanded="false" 
+                        aria-controls="collapseSkills">
+                        <h1>SKILLS</h1>
+                    </a>
+                    <div class="collapse show" id="collapseSkills">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
+                            <li>PYTHON</li>
+                            <li>PHP</li>
+                            <li>MYSQL</li>
+                            <li>MAVEN</li>
+                            <li>DOCKER</li>
+                            <li>JENKINS</li>
+                            <li>GRAPHIC DESIGN</li>
+                            <li>PROJECT MANAGEMENT</li>
+                            <li>PROBLEM SOLVING</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="left-content">
-                    <h1>REFERENCE</h1>
-                    <ul>
-                        <li>JOHN DOE - CEO</li>
-                        <li>LISA SMITH - MARKETING MANAGER</li>
-                        <li>DAVID JOHNSON - SOFTWARE ENGINEER</li>
-                        <li>SARAH WILLIAMS - HR DIRECTOR</li>
-                      </ul>
+                <div class="left-content PROJECTS">
+                    <a 
+                    data-bs-toggle="collapse" 
+                    href="#collapseProjects" 
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="collapseProjects">
+                        <h1>PROJECTS</h1>
+                    </a>
+                    <div class="collapse show" id="collapseProjects">
+                        <ul> 
+                            <li>PERSONAL PORTFOLIO WEBSITE</li> 
+                            <li>E-COMMERCE WEBSITE</li> 
+                            <li>BLOGGING PLATFORM</li> 
+                            <li>SOCIAL MEDIA DASHBOARD</li> 
+                            <li>EVENT MANAGEMENT SYSTEM</li> 
+                            <li>RECIPE SHARING WEBSITE</li> 
+                            <li>JOB BOARD</li> 
+                            <li>ONLINE LEARNING PLATFORM</li> 
+                            <li>REAL ESTATE LISTINGS</li> 
+                            <li>TRAVEL PLANNER</li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="left-content REFERENCE">
+                    <a 
+                    data-bs-toggle="collapse" 
+                    href="#collapseReference" 
+                    role="button" 
+                    aria-expanded="false" 
+                    aria-controls="collapseReference">
+                        <h1>REFERENCE</h1>
+                    </a>
+                    <div class="collapse" id="collapseReference">
+                        <ul>
+                            <li>JOHN DOE </li>
+                            <li class="position">CEO/PRESIDENT </li>
+                            <li>LISA SMITH</li> 
+                            <li class="position">MARKETING MANAGER </li>
+                            <li>DAVID JOHNSON </li> 
+                            <li class="position">SR SOFTWARE ENGINEER </li> 
+                            <li>SARAH WILLIAMS </li>
+                            <li class="position">HR DIRECTOR </li>
+                        </ul>
+                    </div>
                 </div>
         </div>
         
         <!-- lower right section----------------------------------------------->
         <div class="col-md-7 right ">
             <div class="right-content profile">
-                <h1>PROFILE</h1>
-                <p>
-                    I am a highly skilled and experienced web developer with a passion for creating dynamic and user-friendly websites. With a strong background in front-end and back-end development, I specialize in building responsive and visually appealing web applications.
-                  </p>
-                  <p>
-                    My expertise includes HTML5, CSS3, JavaScript, and various front-end frameworks such as React and Angular. I am proficient in server-side programming languages like PHP and Python, and I have experience working with databases such as MySQL and MongoDB.
-                  </p>
-                  <p>
-                    As a web developer, I am committed to delivering high-quality code and ensuring optimal performance and compatibility across different browsers and devices. I stay up to date with the latest web development trends and best practices, allowing me to implement efficient solutions and deliver exceptional user experiences.
-                  </p>
-                  <p>
-                    I am a collaborative team player and possess strong problem-solving skills. I thrive in fast-paced environments and am adept at managing multiple projects simultaneously while meeting deadlines. I have excellent communication skills, allowing me to effectively interact with clients and translate their requirements into functional web solutions.
-                  </p>
-                  <p>
-                    Whether it's creating a brand new website or enhancing an existing one, I am dedicated to delivering results that exceed expectations. I am passionate about web development and continuously strive to expand my skills and knowledge in order to provide innovative solutions to complex problems.
-                  </p>
+                <a 
+                data-bs-toggle="collapse" 
+                href="#collapseProfile" 
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="collapseProfile">
+                    <h1>PROFILE</h1>
+                </a>
+                <div class="collapse show" id="collapseProfile">
+                    <p>
+                        I am a highly skilled and experienced web developer with a passion for creating dynamic and user-friendly websites. With a strong background in front-end and back-end development, I specialize in building responsive and visually appealing web applications.
+                      </p>
+                      <p>
+                        My expertise includes HTML5, CSS3, JavaScript, and various front-end frameworks such as React and Angular. I am proficient in server-side programming languages like PHP and Python, and I have experience working with databases such as MySQL and MongoDB.
+                      </p>
+                      <p>
+                        As a web developer, I am committed to delivering high-quality code and ensuring optimal performance and compatibility across different browsers and devices. I stay up to date with the latest web development trends and best practices, allowing me to implement efficient solutions and deliver exceptional user experiences.
+                      </p>
+                      <p>
+                        I am a collaborative team player and possess strong problem-solving skills. I thrive in fast-paced environments and am adept at managing multiple projects simultaneously while meeting deadlines. I have excellent communication skills, allowing me to effectively interact with clients and translate their requirements into functional web solutions.
+                      </p>
+                      <p>
+                        Whether it's creating a brand new website or enhancing an existing one, I am dedicated to delivering results that exceed expectations. I am passionate about web development and continuously strive to expand my skills and knowledge in order to provide innovative solutions to complex problems.
+                      </p>
+                </div>
+
             </div>
             <div class="right-content experience">
-                <h1>EXPERIENCE</h1>
+                <a 
+                data-bs-toggle="collapse show" 
+                href="#collapseExperience" 
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="collapseExperience">
+                    <h1>EXPERIENCE</h1>
+                </a>
+                <div class="collapse show" id="collapseExperience">
                     <div>
                         <h2>XYZ Corporation</h2>
                         <p><strong>Jan 2015 - Dec 2016</strong></p>
@@ -110,41 +189,83 @@
                         <p><strong>Project Manager</strong></p>
                         <p class="descrition">Managed multiple software development projects from initiation to completion. Oversaw project scope, timelines, and resource allocation. Facilitated communication between stakeholders and development teams.</p>
                     </div>
-                    
                     <div>
                         <h2>DEF Enterprises</h2>
                         <p><strong>Apr 2019 - Present</strong></p>
                         <p><strong>Data Analyst</strong></p>
                         <p class="descrition">Performed data analysis and generated insights to drive business decisions. Developed and implemented data visualization dashboards using tools like Tableau. Collaborated with cross-functional teams to optimize data-driven strategies.</p>
                     </div>
+                </div>
+                    
             </div>
             <div class="right-content education">
-                <h1>EDUCATION</h1>
+                <a 
+                data-bs-toggle="collapse show" 
+                href="#collapseEducation" 
+                role="button" 
+                aria-expanded="false" 
+                aria-controls="collapseEducation">
+                    <h1>EDUCATION</h1>
+                </a>
+                <div class="collapse show" id="collapseEducation">
                     <div>
                         <h2>University of XYZ</h2>
                         <p><strong>Bachelor of Science in Computer Science</strong></p>
                         <p><strong>Sept 2012 - May 2016</strong></p>
                         <p class="descrition">Studied various computer science subjects including algorithms, data structures, software development, and database management. Completed a capstone project focused on developing a web-based application.</p>
                     </div>
-                    
                     <div>
                         <h2>ABC Community College</h2>
                         <p><strong>Associate's Degree in Business Administration</strong></p>
                         <p><strong>Sept 2010 - May 2012</strong></p>
                         <p class="descrition">Acquired foundational knowledge in business principles, accounting, marketing, and management. Participated in extracurricular activities such as the Business Club and volunteered for community service projects.</p>
                     </div>
-                    
                     <div>
                         <h2>DEF High School</h2>
                         <p><strong>High School Diploma</strong></p>
                         <p><strong>Sept 2006 - May 2010</strong></p>
                         <p class="descrition">Completed the required curriculum with a focus on mathematics and science. Engaged in various extracurricular activities including the school's robotics club and served as a class representative.</p>
                     </div>
+                </div>
             </div>
         </div>
     </div>
-
-
+        <!-- Footer section----------------------------------------------->
+        <!-- <div class="row justify-content-center header" style="text-align: center;">
+            <div class="col-md-4 details">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com">
+                        <img src="facebook-logo.png" alt="Facebook">
+                    </a>
+                    <a href="#">
+                        <img src="x-logo.png" alt="X">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 details">
+                <a href="https://www.youtube.com">
+                    <img src="youtube-logo.png" alt="YouTube">
+                </a>
+                <a href="https://www.tiktok.com">
+                    <img src="tiktok-logo.png" alt="TikTok">
+                </a>
+                <a href="https://www.tiktok.com">
+                    <img src="tiktok-logo.png" alt="TikTok">
+                </a>
+            </div>
+            <div class="col-md-4 details">
+                <a href="https://www.instagram.com">
+                    <img src="instagram-logo.png" alt="Instagram">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="instagram-logo.png" alt="Instagram">
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="instagram-logo.png" alt="Pinterest">
+                </a>
+            </div>
+        </div> -->
+        <!-- end of footer section----------------------------------------------->
 </body>
 </html>
 
