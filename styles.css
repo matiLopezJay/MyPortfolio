@@ -158,7 +158,13 @@
         margin:  1% 0% 3% 0%;
     }
 
-
+    /* footer------------------------------------ */
+    .header
+    .details 
+    img {
+        height: 100%;
+        width: 10%;
+    }
 
 
 }
@@ -418,7 +424,7 @@
     .lower 
     .right-content {
         padding: 0% 0% 0% 0%;
-        border-bottom: #b11717 5px solid;
+        border-bottom: rgba(255, 82, 82, 1) 5px solid;
         margin-bottom: 5%;
     }
 
@@ -427,6 +433,7 @@
     h1 {
         font-size: 30px;
         color: rgb(34, 34, 34);
+        text-align: center;
     }
 
     .lower 
@@ -442,6 +449,8 @@
         font-size: 16px;
         color: rgb(34, 34, 34);
     }
+
+
 
 
 }
