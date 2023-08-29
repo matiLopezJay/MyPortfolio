@@ -1,6 +1,20 @@
 /* global class------------------------- */
 .collapse-btn:hover {
-    background-color: rgb(21, 16, 16);
+    background-color: #1c2d3f;
+    text-indent: 5%;
+
+}
+
+.collapse-btn 
+a 
+h1:hover {   
+    color: #fff;
+    text-decoration: none;
+}
+
+.collapse-btn 
+a:hover {   
+    text-decoration: none;
 }
 
 /* for large computer screen----------------------------- */
@@ -82,7 +96,7 @@
     .lower
     .left-content
     h1 {
-        font-size: 20px;
+        font-size: 30px;
         color: rgba(255, 82, 82, 1);
     }
 
