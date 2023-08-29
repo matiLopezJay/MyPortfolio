@@ -1,3 +1,8 @@
+/* global class------------------------- */
+.collapse-btn:hover {
+    background-color: rgb(21, 16, 16);
+}
+
 /* for large computer screen----------------------------- */
 @media only screen and (max-width: 2560px) { 
         
@@ -172,7 +177,8 @@
     img {
         height: 60px;
         width: 60px;
-        margin: 1% 2%;
+        padding: 1%;
+        /* margin: 1% 2%; */
     }
     
     .header.footer {
